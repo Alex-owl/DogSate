@@ -1,0 +1,776 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+body {
+font-family: 'Gilroy-Regular', sans-serif;
+min-width:  1366px;
+background-color: #E5E5E5;
+background-size: 1366px auto;
+ margin-left: auto;
+  margin-right: auto;
+padding:0px;
+text-decoration: none;
+}
+
+.nav{
+    display: inline;
+    display: block;
+    
+                width: 100%;
+                padding:10px;
+                        font-weight: 700;
+               font-family: 'Gilroy-Bold', sans-serif;
+                text-decoration: none;
+                color: #333;
+                text-align: left;
+                font-size: 16px;
+}
+.head {
+    position: relative;
+z-index: 3;
+background-image: url('/SENLA/DomZadanie/SaytDog/dog\ 1.1.png'); 
+border-image-width: 718px;
+background-repeat: no-repeat;
+background-position: top right;
+background-size: 718px 939px;
+/* background-color: #E5E5E5; */
+max-width: 1366px;
+margin: 0px auto;
+text-decoration: none;
+
+}
+.buttonVk{
+     size: 30px 18px;
+    
+    
+}
+.buttonInst{
+size: 30px 18px;
+}
+
+.block_nav{
+text-decoration: none;
+display:flex;
+justify-content:space-around;
+margin-top: 54px;
+}
+:visited { color: #000000; }
+.block_nav_1{
+    
+display:flex;
+justify-content:space-evenly;
+
+}
+
+.Help{
+font-size: 72px;
+font-family: 'Gilroy-Bold', sans-serif;
+font-weight: 700;
+margin-left: 110px;
+margin-top: 31px;
+height: 77px;
+width: 659px;
+}
+ .zaschita{
+     font-size: 16px;
+     width: 659px;
+     margin-top: 1px;
+     margin-left: 110px;
+     
+     color:#6B6B6B;
+;
+ }
+ .Cel_1{
+     font-size: 16px;
+     font-family: 'Gilroy-Bold', sans-serif;
+     margin-left: 110px;
+     width: 659px;
+     color: #474747;
+     font-weight: 700   
+;
+ }
+ .Cel_2{
+     font-family: 'Gilroy-Bold', sans-serif;
+     font-size: 24px;
+     color: #C78100;
+     width: 428px;
+     margin-left: 110px;
+     margin-top: 43px;
+;
+ }
+ .imgCat{
+     width: 483px;
+     height: 469px; 
+     margin-top: 10px;
+     margin-left: 35%;
+ }
+ .button1{
+     position: relative;
+        z-index: 3;
+     width: 182px;
+     height: 42px;
+     font-size: 20px;
+     background: #FBC832;
+     border: #FBC832 solid;
+     border-radius: 58px;
+     margin-top: 220px;
+     margin-left: 160px;
+ }
+ .zagolovki{
+position: relative;
+z-index: 1;
+ }
+ .block_2{
+position: relative;
+z-index: 2;
+top: -155px;
+
+ }
+ #drug{
+     margin-left: 380px;
+ }
+ main{
+    
+ }
+ .reshetka{
+     border: 10px solid #ece89d;
+    display:flex;
+    flex-wrap:wrap;
+     position:-ms-page;
+     z-index: 4;
+     background-size: 100%;
+     background-color: white;
+     border: white solid;
+     width: 1366px;
+     height: 650px ;
+     margin: 0px auto;
+     margin-top: -150px;
+     justify-content:center;
+
+ }
+
+ .reshetka_text{
+     display: block;
+ }
+ .reshetka_text--1{
+    display: block; 
+    font-family: 'Gilroy-Bold', sans-serif;
+     font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    color: #C78100;
+    max-width:466px;
+    height: 94px;
+    margin-top: 128px;
+    margin-left: 73px;
+ }
+ .reshetka_text--2{
+     font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 16px;
+    width:466px;
+    color: #242424;
+    margin-left: 73px;
+    
+ }
+ .reshetka_text--3{
+     font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 16px;
+    width:466px;
+    color: #242424;
+    margin-left: 73px;
+    
+ }
+ .reshetka_pick{
+    margin: 0px;
+ }
+ .reshetka_pick--1{
+     width: 343px;
+     height: 521px; 
+     margin-top: 54px;
+     
+ }
+ .reshetka_pick--2{
+     width: 521px;
+     height: 521px; 
+     margin-top: 54px;
+     margin-left: -265px;
+ }
+ .reshetka_pick--3{
+     width: 464px;
+     height: 464px; 
+     margin-left: -492px;
+     margin-top: 84px;
+ }
+ .reshetka_pick--4{
+     width: 245px;
+     height: 245px; 
+     margin-top: 350px;
+     margin-left: -190px;
+ }
+ .reshetka_pick--5{
+     width: 228px;
+     height: 228px; 
+     margin-top: 358px;
+     margin-left: -237px;
+ }
+ .howhelp{
+
+ }
+ .howhelp_h3{
+     font-family: 'Gilroy-Regular', sans-serif;
+     text-align: center;
+     font-size: 28px;
+     margin-top: 80px;
+ }
+ .howhelp_block{
+
+    text-align: center;
+}
+
+/* flex-контейнер */
+.howhelp_block__row{
+
+border: 0px solid #ece89d;
+display: inline-flex;
+width: 1146px;
+justify-content:space-between;
+}
+
+/* flex-элемент */
+.howhelp_block__element{
+
+border: 0px solid #5e5373;
+
+}
+
+/* контент */
+.howhelp_block__content{
+
+
+
+}
+
+/* кнопка с домиком и собачкой */
+.howhelp_button_1{
+    width: 166px;
+    height: 240px;
+    border: 0px solid #f74e0b;
+    background-color: #E5E5E5;
+}
+.howhelp_button_1img{
+    margin-left: -150px;
+    margin-top: -155px;
+}
+
+.howhelp_button1_img_1{
+    position: absolute;
+     margin-top: 1px;
+    
+}
+.howhelp_button1_img_2{
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 33px;
+}
+.howhelp_button1_img_3{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 73px;
+}
+.howhelp_button1_img_4{
+    position: absolute;
+    margin-top: 59px;
+    margin-left: 45px;
+
+}
+.howhelp_button1_img_5{
+    position: absolute;
+    margin-top: 59px;
+    margin-left: 101px;
+
+}
+.howhelp_button1_img_6{
+    position: absolute;
+    margin-top: 112px;
+    margin-left: 45px;
+}
+.howhelp_button1_img_7{
+    position: absolute;
+    margin-top: 33px;
+    margin-left: 35px;
+}
+.howhelp_button1_img_8{
+    position: absolute;
+    margin-top: 66px;
+    margin-left: 57px;
+    }
+    /* текст кнопки  */
+    .howhelp_block__content_button_text{
+        font-family: 'Gilroy-Regular', sans-serif;
+       font-size: 16px;       
+       margin-top: 160px;
+       width: 166px;         
+    }
+/*  2 кнопка с рукой и картой */
+.howhelp_button_2{
+    width: 166px;
+    height: 240px;
+    border: 0px solid #f74e0b;
+    background-color: #E5E5E5;
+}
+.howhelp_button2_1img{
+    margin-left: -150px;
+    
+}
+
+.howhelp_button2_img_1{
+    position: absolute;
+     margin-top: -15px;
+     margin-left: -74px;
+    
+}
+
+.howhelp_button2_img_3{
+    position: absolute;
+    margin-top: 42px;
+    margin-left: -10px;
+}
+.howhelp_button2_img_4{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: -10px;
+
+}
+.howhelp_button2_img_5{
+    position: absolute;
+    margin-top: 67px;
+    margin-left: -45px;
+
+}
+.howhelp_button2_img_6{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: -30px;
+}
+.howhelp_button2_img_7{
+    position: absolute;
+    margin-top: 71px;
+    margin-left: -29px;
+}
+    /* текст кнопки  */
+    /* .howhelp_block__content_button_text2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 16px;       
+       margin-top: 160px;
+       width: 166px;   */
+    }
+    /*   кнопка с собака + крест и миска */
+.howhelp_button_3{
+    width: 166px;
+    height: 240px;
+    background-color: #E5E5E5;
+}
+.howhelp_button_3img{
+    margin-left: -3px;
+    margin-top: -155px;
+}
+
+.howhelp_button3_img_1{
+    position: absolute;
+     
+     margin-left: -74px;
+    
+}
+
+.howhelp_button3_img_3{
+    position: absolute;
+    margin-top: 42px;
+    margin-left: -45px;
+}
+ /*   кнопка с собака + авто */
+.howhelp_button_4{
+    width: 166px;
+    height: 240px;
+    border: 0px solid #f74e0b;
+    background-color: #E5E5E5;
+}
+.howhelp_button_4img{
+    margin-left: -3px;
+    margin-top: -155px;
+}
+.howhelp_button4_img_1{
+    position: absolute;
+     
+     margin-left: -74px;    
+}
+.howhelp_button4_img_3{
+    position: absolute;
+    margin-top: 42px;
+    margin-left: -35px;
+}
+ /*   кнопка с рукой */
+.howhelp_button_5{
+    width: 166px;
+    height: 240px;
+    border: 0px solid #f74e0b;
+    background-color: #E5E5E5;
+}
+.howhelp_button_5img{
+    margin-left: -3px;
+    margin-top: -155px;
+}
+.howhelp_button5_img_1{
+    position: absolute;
+     
+     margin-left: -74px;    
+}
+.howhelp_button5_img_3{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: -25px;
+}
+.homedog{
+    text-align: center;
+    margin-top: 80px;
+     
+}
+.home_love{
+display:flex;
+justify-content:space-around;
+}
+.home_love_block__row{
+
+
+display:flex;
+justify-content:space-evenly;
+}
+
+/* flex-элемент */
+.home_love_block__element{
+
+border: 0px solid #5e5373;
+margin: 0 100px;
+}
+
+/* контент */
+.home_love_block__content{
+width: 400px;
+
+}
+.home_loveH{
+    font-family: 'Gilroy-Bold', sans-serif;
+font-size: 28px;
+text-align: left;
+}
+.home_loveP{
+font-size: 16px;
+text-align: left;
+}
+.nashi_givotnie{
+    text-align: center;
+    margin: 0 auto;
+    width: 1145px;
+}
+.howhelp_h3{
+
+}
+.nashi_givotnie_block{
+border: 0px solid #ece89d;
+display: inline-flex;
+flex-wrap: wrap;
+justify-content:space-between;
+max-width: 1145px;
+
+
+    
+}
+.nashi_givotnie_block_1{
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 368px;
+    height: 695px;
+    border-radius: 5px;
+    width: calc(1/3*100% - (1 - 1/3)*20px);
+    margin: 0 0 44px;
+    
+    
+}
+.nashi_givotnie_img{
+   margin-left: 17px;
+   margin-top: 16px;
+}
+.nashi_givotnie_block_1--content{
+background-color: #FFFFFF;
+text-align: left;
+
+}
+
+.zabrat_dom{
+    font-family: 'Gilroy-Regular', sans-serif;
+    width: 209px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 80px;
+    background-color: white;
+    background-image: url('/SENLA/DomZadanie/SaytDog/img/button_jeltaya.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+
+.perederjka{
+    font-family: 'Gilroy-Regular', sans-serif;
+    width: 296px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 36px;
+    margin-top: 15px;    
+    background-color: white;
+    background-image: url('/SENLA/DomZadanie/SaytDog/img/button_ramka.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    
+}
+.name{
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8px;
+}
+.pol_vozrast{
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 14px;
+    color: #6B6B6B;
+    margin-left: 17px;
+    margin-top: 6px;
+}
+.opisanie_pitomca{
+    display: block;
+    height: 95px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 15px;
+    color: #242424;
+    margin-left: 17px;
+    margin-top: 6px;
+}
+.line_card{
+    margin-left: 17px;
+    margin-top: -40px ;
+      
+}
+.link_vse{
+    text-decoration: none;
+}
+.fast_help{
+    display: flex;
+    justify-content:center;
+    
+
+    }
+    .fast_help_conteyner{
+        display: inline-flex;
+        margin-top: 65px;
+        
+}
+    
+.fast_help_text{
+    font-family: 'Gilroy-Regular', sans-serif;
+    width: 583px;
+    font-size: 18px;
+}
+.button_vk{
+   margin-left: 38px;
+}
+.button_inst{
+    margin-left: 32px;
+}
+.many_help{
+    background-size: 100%;
+     background-color: white;
+     border: white solid;
+     width: 1366px;
+     height: 650px ;
+     margin: 0px auto;
+     margin-top: 75px;
+}
+.manycard{
+  margin-top: 25px;  
+}
+.many_help_zagolovok{
+    text-align: center;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 28px;
+}
+.many_help_text{
+    font-family: 'Gilroy-Regular', sans-serif;
+    text-align: center;
+    font-size: 18px ;
+    color: #6B6B6B;
+}
+.bank{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.bank_zagolovok{
+     font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 28px;
+    text-align: left;
+    color: #242424;
+}
+.bank_rekvezit{
+    font-size: 16px;
+    line-height: 22.4px;
+    width: 389px;
+}
+.fast_many{
+    font-family: 'Gilroy-Regular', sans-serif;
+    width: 223px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    
+    background-color: white;
+    background-image: url('/SENLA/DomZadanie/SaytDog/img/button_jeltaya.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+.dog_korm{
+   margin-top: 25px;   
+   text-align: center;
+}
+.korm_content{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: left;
+}
+
+.korm_text_zagolovok{
+font-size: 28px ;
+color: #242424;
+text-align: left;
+margin-top: 40px;    
+
+}
+.korm_text_info{
+font-size: 16px;
+text-align: left;
+margin-top: 24px;
+
+}
+.dog_auto{
+  margin-top: 25px;   
+   text-align: center;  
+}
+.auto_help_content{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: left;
+}
+
+.zayvka{
+    font-family: 'Gilroy-Regular', sans-serif;
+    width: 223px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #E5E5E5;
+    background-image: url('/SENLA/DomZadanie/SaytDog/img/button_jeltaya.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    margin-top: 30px;
+}
+
+.volonter{
+    width: 1366px;
+    margin: 0px auto;
+       
+    }
+    .volonter_content{
+        display:flex;
+        justify-content:center;
+       flex-wrap:wrap;
+       margin-left: 300px;
+    }
+    
+    .volonter_pick{
+        display: block;
+
+    }
+ 
+ .volonter_pick--1{
+     position: relative;
+     z-index: -1;
+     width: 343px;
+     height: 521px; 
+     margin-top: 54px;
+     margin-left: -543px;
+     
+ }
+ .volonter_pick--2{
+     z-index: 1;
+     position: absolute;
+     width: 521px;
+     height: 521px; 
+     margin-top: 54px;
+     margin-left: -250px;
+ }
+ .volonter_pick--3{
+     z-index: 2;
+    position: absolute;
+     margin-left: -212px;
+     margin-top: 84px;
+ }
+ 
+.volonter_text{
+     display: block;
+     width: 466px;
+     margin-left: 150px;
+     margin-top: 54px;
+ }
+.news{
+     background-size: 100%;
+     background-color: white;
+     border: white solid;
+     width: 1366px;
+     height: 650px ;
+     margin: 0px auto;
+     margin-top: 75px;
+}
+ .news_text_zagolovok{
+    text-align: center;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 28px;
+    margin-top: 54px;
+ }
+    
+ .news_content{
+    
+
+ }
+ .news_content_text{
+    
+ }
+ .news_text_1{
+    width: 601px;
+ }
+ .news_1{
+   
+ }
